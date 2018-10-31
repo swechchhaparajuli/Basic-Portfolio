@@ -1,34 +1,132 @@
+
+ #tHead {
+  padding: 10px;
+  margin:0;
+  background: rgb(53, 52, 52);
+}
+
 body {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin-bottom:0px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
+    font-size: 10px;
+    line-height: 100%;
+    color: white;
+    background: teal;
+    /*background-image: url(file:///Users/Swechacha/Desktop/Bootcamp/week1/images/background.jpg);*/
+    /*background-position: center;*/
+
   }
 
+ 
+
+
+
   #top-tabs {
-    padding: 10px;
-    margin: 10px, 100px, 10px, 100px ;
+    padding: 40px;
+    margin-bottom: -20px;
     color: silver;
-    background: whitesmoke;
+    background: ghostwhite;
     float: left;
+    width: 100%;
+    height: 40px;
+
   }
+ 
+ 
+
+  #nameBlock{
+    float: left;
+    margin-left: 12%;
+    margin-bottom: 0%;
+    background: teal;
+    width: 150px;
+    color:white;
+    text-align: center;
+    height: 60px;
+    font-size: 15px;
+
+  }
+
+
+  a:link, a:visited {
+    background-color: ghostwhite;
+    color: darkgrey;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: cornsilk;
+}
+
 
   #left{
     float: right;
-    margin: 10px;
+    width: 15%;
+    
+    color: gray;
+    font-size: 15px;
   }
 
   #right{
     float: right;
-    margin: 10px;
+    width: 15%;
+    color: gray;
+    font-size: 15px;
+  }
 
+  #middle{
+    float: right;
+    width: 15%;
+    color: gray;
+    font-size: 15px;
+    
   }
 
   .clearfix::after{
     content:"";
     display: block;
     clear: both;
+
+  }
+
+
+  .container {
+    float: left;
+    background-image: url(file:///Users/Swechacha/Desktop/Bootcamp/week1/images/background.jpg);
+    overflow:auto;
+    width:100%;
+    height: 100%;
+    margin-bottom: 10px;
+
+  }
+
+  h2{
+
+    font-size: 30px;
+  }
+
+  .aboutBlock {
+    
+    margin: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+    padding: 30px;
+    background: white;
+    margin-bottom: 5px;
+    color: teal;
+    text-align: left;
+  }  
+
+ 
+
+  #tFoot {
+    clear: both;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(53, 52, 52);
   }
