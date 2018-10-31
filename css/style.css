@@ -7,3 +7,28 @@ body {
     color: #333;
     background: #efeee7;
   }
+
+  #top-tabs {
+    padding: 10px;
+    margin: 10px, 100px, 10px, 100px ;
+    color: silver;
+    background: whitesmoke;
+    float: left;
+  }
+
+  #left{
+    float: right;
+    margin: 10px;
+  }
+
+  #right{
+    float: right;
+    margin: 10px;
+
+  }
+
+  .clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+  }
